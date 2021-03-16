@@ -8,8 +8,7 @@ function App()  {
     return (
             <Layout>
                 <h1>Joke App</h1>   
-                <JokeList /> 
-               
+                <JokeList />   
             </Layout>  
     )
 }
