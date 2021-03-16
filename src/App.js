@@ -1,15 +1,16 @@
 import React, { useState } from "react"
 import JokeList from "./components/JokeList"
+import Layout from "./components/Layout"
 
 function App()  {
    
 
     return (
-            <div>
+            <Layout>
                 <h1>Joke App</h1>   
                 <JokeList /> 
                
-            </div>  
+            </Layout>  
     )
 }
 
