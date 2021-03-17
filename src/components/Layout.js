@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container"
 
 const Layout = (props) =>{
     return(
-        <Container>
+        <Container fluid>
         {props.children}   
         </Container>
     )

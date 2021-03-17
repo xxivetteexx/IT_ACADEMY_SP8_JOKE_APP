@@ -1,7 +1,8 @@
 import React,{useState, useEffect} from "react"
 import Button from "react-bootstrap/Button"
-
+import Card from "react-bootstrap/Card"
 import axios from "axios"
+import "../API/jokes.css"
 
 function JokeList(){
     const[jokeList, setJokeList]= useState([])
@@ -26,14 +27,19 @@ function JokeList(){
         setFetching(!fetching)
     }
 
+    
     return(
-        <div>
-            <p>{jokeList}</p>
-            <Button onClick={handleEvent}>Next Joke</Button>
+          <div>
+            <Card className="joke-card mt-5 text-center">
+                <Card.Body> 
+                    <Card.Title>IF YOU’RE READY TO LAUGHT CLICK THE JOKE BUTTON</Card.Title> 
+                    <Card.Text>{jokeList}</Card.Text>
+                    <Button onClick={handleEvent} className="btn w-50">The Joke</Button>
+                </Card.Body>
+            </Card>     
         </div>
     )
 }
 
 export default JokeList
 
-  
