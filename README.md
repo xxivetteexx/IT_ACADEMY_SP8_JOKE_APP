@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# IT ACADEMY SP8 JOKE APP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Welcome Page & Joke App
+![codeee-01](https://user-images.githubusercontent.com/48102806/111801907-b158eb80-88cd-11eb-8b53-080b0a455881.png)
 
-## Available Scripts
+### [Web]() 💻
+### [Codesandbox]() ⌨️
 
-In the project directory, you can run:
+## Getting started 🚀
 
-### `npm start`
+Create a joke website, consuming data from a free API that requires no key. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+-   API URL:
+        https://icanhazdadjoke.com/
+        
+-    Header to obtain the data in the format that interests us:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+        'Accept': 'application/json'
 
-### `npm test`
+### Level :one: 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```Exercice 1```
 
-### `npm run build`
+Create the basis of the project with React, for this we will follow the following steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Clone the project that will serve as our template:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+https://github.com/itacademyReact/react-template
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Open the project with the Visual Studio Code
 
-### `npm run eject`
+- Static component: Modify the main component in order to include the title, space for jokes and the "The Joke" button (the first time no joke will be displayed. The title and the "The Joke" button will appear).
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Add Interactivity: Create a function that runs when the user presses the "The Joke" button. This feature will need to load the API joke provided and show it to the user.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Level :two:
+```Exercice 2```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Add React Boostap and CSS styles to the website.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Level :three:
+```Exercice 3```
 
-## Learn More
+Add a meteorological API information and show it on the web. This API has to be addressed in the coverage, not by clicking any button.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Level :four:
+```Exercice 4```
+Modify the navigation to show the user a welcome screen. You will need to create this new welcome component and make it show by default. This component must have an access button, which when pressed accesses the joke page.
+The welcome and main screen must be shown / hidden using conditional rendering.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Level :five:
+```Exercice 5```
+Modify the previous exercise using routes instead.
 
-### Code Splitting
+## Build with 🛠️
+* React
+* HTML5
+* CSS
+* React Boostrap 
+* JSX
+* Postman
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Author :raising_hand_woman:
+[Ivette](https://github.com/xxivetteexx)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
