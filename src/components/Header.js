@@ -5,7 +5,6 @@ import '../components/header.css';
 const Header = () => {
     return(
         <nav >
-
             <Nav expand="lg"className="App-navbar justify-content-md-around">
                 <Nav.Item > Weather&Jokes / </Nav.Item>
                 <Nav.Item > Weather&Jokes / </Nav.Item>
@@ -22,7 +21,5 @@ const Header = () => {
         </nav>
     )
 }
-
-
 
 export default Header

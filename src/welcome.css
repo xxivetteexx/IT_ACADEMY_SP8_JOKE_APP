@@ -1,12 +1,13 @@
 .Welcome-body {
-    background: color #d3fc67 !important;
+    background-color:#d3fc67 !important;
+    margin:0px;
+    padding:0px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100vh;
 }
 
-.Welcome-logo{
-    height: 20vmin;
-    pointer-events: none;
-}
-
+/* BUTTON */
 .btnWelcome{
     text-transform: uppercase;
     background-color: #ffff !important;
@@ -20,6 +21,12 @@
 .btnWelcome:hover{
     background-color: #000 !important;
     color:#fff !important;
+}
+
+/* LOGO */
+.Welcome-logo{
+    height: 15vmin;
+    pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {

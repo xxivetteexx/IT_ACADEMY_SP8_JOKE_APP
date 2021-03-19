@@ -1,8 +1,6 @@
 import React,{useState, useEffect} from "react"
 import axios from "axios"
-import Card from "react-bootstrap/Card"
-import Col from "react-bootstrap/Col"
-import Row from "react-bootstrap/Row"
+import {Container ,Card, Col, Row} from "react-bootstrap"
 import "../API/weather.css"
 
 
@@ -105,11 +103,11 @@ function WeatherList(){
     }, [fetching]);
 
     return(
-        <div className="weather">
+        <Container className="weather">
             {/* BARCELONA */}
-            <Card className="mt-2 border-0">
+            <Card className=" mt-2 border-0">
                 <Card.Body className="card-Bcn">
-                    <Row >
+                    <Row className="align-items-center" >
                         <Col><Card.Title>{cityBcn}</Card.Title></Col>
                         <Col><Card.Title>{tempBcn}°C</Card.Title></Col>
                         <Col><Card.Title>{weatherBcn}</Card.Title></Col>
@@ -120,7 +118,7 @@ function WeatherList(){
             {/* LONDON */}
             <Card className="mt-2 border-0">
                 <Card.Body className="card-Ldn">
-                    <Row>
+                    <Row className="align-items-center">
                         <Col><Card.Title>{cityLdn}</Card.Title></Col>
                         <Col><Card.Title>{tempLdn}°C</Card.Title></Col>
                         <Col><Card.Title>{weatherLdn}</Card.Title></Col>
@@ -131,7 +129,7 @@ function WeatherList(){
             {/* NEW YORK */}
             <Card className="mt-2 border-0">
                 <Card.Body className="card-Nyc">
-                    <Row>
+                    <Row className="align-items-center">
                         <Col><Card.Title>{cityNyc}</Card.Title></Col>
                         <Col><Card.Title>{tempNyc}°C</Card.Title></Col>
                         <Col><Card.Title>{weatherNyc}</Card.Title></Col>
@@ -142,7 +140,7 @@ function WeatherList(){
             {/* MOSCOW */}
             <Card className="mt-2 border-0">
                 <Card.Body className="card-Mow">
-                <Row>
+                <Row className="align-items-center">
                         <Col><Card.Title>{cityMow}</Card.Title></Col>
                         <Col><Card.Title>{tempMow}°C</Card.Title></Col>
                         <Col><Card.Title>{weatherMow}</Card.Title></Col>
@@ -151,7 +149,7 @@ function WeatherList(){
             </Card>
       
       
-        </div>
+        </Container>
     )
 }
 
