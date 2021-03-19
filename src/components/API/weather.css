@@ -1,0 +1,36 @@
+.weather{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    border:none;
+}
+
+/* Outline */
+.card-Bcn,.card-Ldn,.card-Nyc, .card-Mow{
+    border:3px solid black;
+}
+
+/* Hover */
+.card-Bcn:hover,.card-Ldn:hover,.card-Nyc:hover,.card-Mow:hover{
+    background-color: #BB98DA;}
+
+/* Barcelona Card */
+.card-Bcn{
+    background-color: #76FBB9; 
+}
+
+/* London Card */
+.card-Ldn{
+    background-color: #409DF5;
+}
+
+/* New York Card */
+.card-Nyc{
+    background-color: #F39B37;
+}
+
+/* Moscow Card */
+.card-Mow{
+    background-color: #D3FC67;
+}
+

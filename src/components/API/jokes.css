@@ -1,0 +1,19 @@
+.joke-card{
+    font-family: 'Poppins', sans-serif;
+    background-color:#D8D8D8 !important;
+}
+
+.btn{
+    text-transform: uppercase;
+    background-color: #ffff !important;
+    color: #000 !important;
+    border:3px solid #000 !important;
+    border-radius: 0px !important;
+    box-shadow: 5px 10px !important;
+    font-weight: 500 !important;
+}
+
+.btn:hover{
+    background-color: #000 !important;
+    color:#fff !important;
+}
