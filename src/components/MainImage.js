@@ -4,7 +4,10 @@ import image from "../assets/smile.png"
 
 const MainImage = () => {
     return(
-        <Image className="mainImage" src={image}  alt="Smile" fluid/> 
+        <Image className="mainImage" 
+        src={image}  alt="Smile" fluid
+        style={{border:'10px solid black'
+        }}/> 
     )
 }
 export default MainImage

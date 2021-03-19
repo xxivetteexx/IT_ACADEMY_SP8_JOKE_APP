@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import "./App.css"
 import JokeList from "./components/API/JokeList"
 import Layout from "./components/Layout"
 import WeatherList from "./components/API/WeatherList"
@@ -11,7 +12,7 @@ function App()  {
    
 
     return (
-        <div>
+        <div className="App-body">
         {/* HEADER */}
         <Header />
             <Layout>
@@ -28,7 +29,7 @@ function App()  {
                         </Row>
                     </Col>   
                     <Col md={5}>
-                        <Row >
+                        <Row className="justify-content-md-center">
                             <MainImage/>
                         </Row>
                     </Col> 

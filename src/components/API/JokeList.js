@@ -6,7 +6,7 @@ import "../API/jokes.css"
 
 function JokeList(){
     const[jokeList, setJokeList]= useState([])
-    const [fetching, setFetching] = useState(false);
+    const[fetching, setFetching] = useState(false);
         
      //Fetching local data (API) 
      useEffect(() => {
@@ -26,11 +26,11 @@ function JokeList(){
     const handleEvent = () => { 
         setFetching(!fetching)
     }
-
+   
     
     return(
           <div>
-            <Card className="joke-card mt-5 text-center">
+            <Card className="joke-card mt-5 text-center border-0">
                 <Card.Body> 
                     <Card.Title>IF YOU’RE READY TO LAUGHT CLICK THE JOKE BUTTON</Card.Title> 
                     <Card.Text>{jokeList}</Card.Text>

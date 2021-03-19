@@ -107,7 +107,7 @@ function WeatherList(){
     return(
         <div className="weather">
             {/* BARCELONA */}
-            <Card className="mt-2">
+            <Card className="mt-2 border-0">
                 <Card.Body className="card-Bcn">
                     <Row >
                         <Col><Card.Title>{cityBcn}</Card.Title></Col>
@@ -118,7 +118,7 @@ function WeatherList(){
             </Card>
 
             {/* LONDON */}
-            <Card className="mt-2 ">
+            <Card className="mt-2 border-0">
                 <Card.Body className="card-Ldn">
                     <Row>
                         <Col><Card.Title>{cityLdn}</Card.Title></Col>
@@ -129,7 +129,7 @@ function WeatherList(){
             </Card>
 
             {/* NEW YORK */}
-            <Card className="mt-2">
+            <Card className="mt-2 border-0">
                 <Card.Body className="card-Nyc">
                     <Row>
                         <Col><Card.Title>{cityNyc}</Card.Title></Col>
@@ -140,7 +140,7 @@ function WeatherList(){
             </Card>
 
             {/* MOSCOW */}
-            <Card className="mt-2">
+            <Card className="mt-2 border-0">
                 <Card.Body className="card-Mow">
                 <Row>
                         <Col><Card.Title>{cityMow}</Card.Title></Col>

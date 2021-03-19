@@ -1,0 +1,39 @@
+.Welcome-body {
+    background: color #d3fc67 !important;
+}
+
+.Welcome-logo{
+    height: 20vmin;
+    pointer-events: none;
+}
+
+.btnWelcome{
+    text-transform: uppercase;
+    background-color: #ffff !important;
+    color: #000 !important;
+    border:3px solid #000 !important;
+    border-radius: 0px !important;
+    box-shadow: 5px 10px !important;
+    font-weight: 500 !important;
+}
+
+.btnWelcome:hover{
+    background-color: #000 !important;
+    color:#fff !important;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .Welcome-logo {
+      animation: Welcome-logo-spin infinite 5s linear;
+    }
+  }
+  
+@keyframes Welcome-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
