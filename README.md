@@ -20,6 +20,7 @@ Create a joke website, consuming data from a free API that requires no key.
 ### Level :one: 
 
 ```Exercice 1```
+
 Create the basis of the project with React, for this we will follow the following steps:
 
 - Clone the project that will serve as our template:
@@ -33,18 +34,22 @@ https://github.com/itacademyReact/react-template
 - Add Interactivity: Create a function that runs when the user presses the "The Joke" button. This feature will need to load the API joke provided and show it to the user.
 
 ### Level :two:
+```Exercice 2```
 
 Add React Boostap and CSS styles to the website.
 
 ### Level :three:
+```Exercice 3```
 
 Add a meteorological API information and show it on the web. This API has to be addressed in the coverage, not by clicking any button.
 
 ### Level :four:
+```Exercice 4```
 Modify the navigation to show the user a welcome screen. You will need to create this new welcome component and make it show by default. This component must have an access button, which when pressed accesses the joke page.
 The welcome and main screen must be shown / hidden using conditional rendering.
 
 ### Level :five:
+```Exercice 5```
 Modify the previous exercise using routes instead.
 
 ## Tools 🛠️
