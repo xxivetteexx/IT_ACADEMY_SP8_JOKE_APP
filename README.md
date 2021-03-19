@@ -1,4 +1,4 @@
-# IT ACADEMY SP8 JOKE APP
+#IT ACADEMY SP8 JOKE APP
 
 ## Welcome Page & Joke App
 ![codeee-01](https://user-images.githubusercontent.com/48102806/111801907-b158eb80-88cd-11eb-8b53-080b0a455881.png)
@@ -52,7 +52,7 @@ The welcome and main screen must be shown / hidden using conditional rendering.
 ```Exercice 5```
 Modify the previous exercise using routes instead.
 
-## Tools 🛠️
+## Build with 🛠️
 * React
 * HTML5
 * CSS
