@@ -5,12 +5,13 @@ import axios from "axios"
 import "../API/jokes.css"
 
 function JokeList(){
-    const[jokeList, setJokeList]= useState([])
+    const[jokeList, setJokeList]= useState()
     const[fetching, setFetching] = useState(false);
     const[loading, setLoading]=useState(false)
         
-     //Fetching local data (API) 
-     useEffect(() => {
+
+    const handleEvent = () => { 
+        //setFetching(!fetching)
         const fetchData = async() => { 
             const result = await 
                 axios.get('https://icanhazdadjoke.com/',{
@@ -21,33 +22,19 @@ function JokeList(){
             console.log(result.data)
             setJokeList(`${result.data.joke}`)
         };
-        fetchData();  
-     }, [fetching]);
-
-    const handleEvent = () => { 
-        setFetching(!fetching)
+        fetchData(); 
     }
 
-    useEffect(()=>{
-        const loading = () =>{
-            if(jokeList.lenght === 0){
-                <p>Loading...</p>
-            }else{
-                <p>{jokeList}</p>
-            }
-        }
-    })
     
     return(
-          <div>
-            <Card className="joke-card mt-5 text-center border-0">
+        
+            <Card className="joke-card text-center border-0 mt-5 w-100">
                 <Card.Body> 
                     <Card.Title className="mb-4">IF YOU’RE READY TO LAUGHT CLICK THE JOKE BUTTON</Card.Title> 
-                    <Card.Text className="mb-4">{loading}</Card.Text>
+                    <Card.Text className="joke-content mb-4">{jokeList}</Card.Text>
                     <Button onClick={handleEvent} className="btn w-50">The Joke</Button>
                 </Card.Body>
             </Card>     
-        </div>
     )
 }
 

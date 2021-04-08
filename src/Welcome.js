@@ -1,29 +1,27 @@
-import React, {useState, useEffect} from 'react'
+import React from 'react'
 import "./welcome.css"
 import image from "../src/assets/hi.svg"
 import {Container, Row, Image, Button, Col} from "react-bootstrap"
-
+import {Link} from "react-router-dom";
 
 function Welcome (){
-    const[welcome, setWelcome]=useState(false)
-
-    const handleClick= ()=>{
-        setWelcome(!welcome);
-    }
-
+   
     return(
-            <Container fluid className="Welcome-body ">
-                <Row className="justify-content-center">
-                    <Col>
-                        <Image className="Welcome-logo" src={image} alt="hi" />
-                    </Col>
-                </Row>
-                <Row className="justify-content-center mt-4">
-                    <Col >
-                        <Button className="btnWelcome" onClick={handleClick}>Welcome</Button>
-                    </Col>
-                </Row>
-            </Container>  
+        <Container fluid className="Welcome-body d-flex flex-column justify-content-center align-items-center ">
+            <Row>
+                <Col xs md lg={12}>
+                    <Image className="Welcome-logo" src={image} alt="hi" />
+                </Col>
+            </Row>
+            <Row>
+                <Col xs md lg={12} className="mt-4" >
+                    <Link to="/jokes">
+                        <Button className="btnWelcome ">Welcome</Button>
+                    </Link>
+                </Col>
+            </Row>          
+           
+        </Container>   
     )
 }
 export default Welcome

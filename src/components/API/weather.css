@@ -5,6 +5,9 @@
     border:none;
 }
 
+.weather-text{
+    font-size: 1.3rem !important;
+}
 /* Outline */
 .card-Bcn,.card-Ldn,.card-Nyc, .card-Mow{
     border:3px solid black;
