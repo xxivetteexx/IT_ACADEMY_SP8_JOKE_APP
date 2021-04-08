@@ -32,7 +32,7 @@ function JokeList(){
                 <Card.Body> 
                     <Card.Title className="mb-4">IF YOU’RE READY TO LAUGHT CLICK THE JOKE BUTTON</Card.Title> 
                     <Card.Text className="joke-content mb-4">{jokeList}</Card.Text>
-                    <Button onClick={handleEvent} className="btn w-50">The Joke</Button>
+                    <Button onClick={handleEvent} className="btn mt-1 w-50">The Joke</Button>
                 </Card.Body>
             </Card>     
     )
