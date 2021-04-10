@@ -109,7 +109,7 @@ function WeatherList(){
                 <Card.Body className="card-Bcn">
                     <Row className="align-items-center" >
                         <Col><Card.Title className="weather-text mb-0">{cityBcn}</Card.Title></Col>
-                        <Col><Card.Title className="weather-text mb-0">{tempBcn}°C</Card.Title></Col>
+                        <Col><Card.Title className="weather-text d-flex justify-content-center mb-0">{tempBcn}°C</Card.Title></Col>
                         <Col><Card.Title className="weather-text mb-0">{weatherBcn}</Card.Title></Col>
                     </Row>
                 </Card.Body>
@@ -120,7 +120,7 @@ function WeatherList(){
                 <Card.Body className="card-Ldn">
                     <Row className="align-items-center">
                         <Col><Card.Title className="weather-text mb-0">{cityLdn}</Card.Title></Col>
-                        <Col><Card.Title className="weather-text mb-0">{tempLdn}°C</Card.Title></Col>
+                        <Col><Card.Title className="weather-text d-flex justify-content-center mb-0">{tempLdn}°C</Card.Title></Col>
                         <Col><Card.Title className="weather-text mb-0">{weatherLdn}</Card.Title></Col>
                     </Row>
                 </Card.Body>
@@ -131,7 +131,7 @@ function WeatherList(){
                 <Card.Body className="card-Nyc">
                     <Row className="align-items-center">
                         <Col><Card.Title className="weather-text mb-0">{cityNyc}</Card.Title></Col>
-                        <Col><Card.Title className="weather-text mb-0">{tempNyc}°C</Card.Title></Col>
+                        <Col><Card.Title className="weather-text d-flex justify-content-center mb-0">{tempNyc}°C</Card.Title></Col>
                         <Col><Card.Title className="weather-text mb-0">{weatherNyc}</Card.Title></Col>
                     </Row>
                 </Card.Body>
@@ -142,7 +142,7 @@ function WeatherList(){
                 <Card.Body className="card-Mow">
                 <Row className="align-items-center">
                         <Col><Card.Title className="weather-text mb-0">{cityMow}</Card.Title></Col>
-                        <Col><Card.Title className="weather-text mb-0">{tempMow}°C</Card.Title></Col>
+                        <Col><Card.Title className="weather-text d-flex justify-content-center  mb-0">{tempMow}°C</Card.Title></Col>
                         <Col><Card.Title className="weather-text mb-0">{weatherMow}</Card.Title></Col>
                     </Row>
                 </Card.Body>
