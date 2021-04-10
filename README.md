@@ -3,7 +3,7 @@
 ## Welcome Page & Joke App
 ![codeee-01](https://user-images.githubusercontent.com/48102806/111801907-b158eb80-88cd-11eb-8b53-080b0a455881.png)
 
-### [Web]() 💻
+### [Web](https://xxivetteexx.github.io/IT_ACADEMY_SP8_JOKE_APP/) 💻
 ### [Codesandbox](https://codesandbox.io/s/joke-app-react-js-13qoe) ⌨️
 
 ## Getting started 🚀
